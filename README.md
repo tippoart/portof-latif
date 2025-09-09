@@ -8,12 +8,10 @@ Fokus saya adalah menciptakan sistem yang **user-friendly, efisien, dan up-to-da
 
 ## 👨‍💻 Tentang Saya
 - 🌱 Sedang mendalami **pengembangan aplikasi berbasis AI & Machine Learning** untuk analisis data.  
-- 💡 Tertarik dengan **pengembangan dashboard, sistem manajemen data, dan integrasi API**.  
+- 💡 Tertarik dengan **pengembangan dashboard, sistem manajemen data, integrasi API dan fullstack dev**.  
 - 🎨 Memiliki kemampuan desain antarmuka (UI) agar aplikasi lebih nyaman digunakan.  
-- 📍 Berdomisili di **Yogyakarta, Indonesia**.  
-
+ 
 ---
-
 ## 🚀 Teknologi & Tools
 
 **Bahasa Pemrograman**
@@ -70,8 +68,7 @@ Fokus saya adalah menciptakan sistem yang **user-friendly, efisien, dan up-to-da
 ---
 
 ## 📊 Statistik GitHub
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=latifardiansyah&show_icons=true&theme=tokyonight)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=latifardiansyah&layout=compact&theme=tokyonight)  
+![GitHub stats]([https://github-readme-stats.vercel.app/api?username=latifardiansyah&show_icons=true&theme=tokyonight](https://github-readme-stats.vercel.app/api?username=tippoart&show_icons=true&theme=tokyonight&count_private=true))  
 
 ---
 
