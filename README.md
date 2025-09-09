@@ -68,7 +68,10 @@ Fokus saya adalah menciptakan sistem yang **user-friendly, efisien, dan up-to-da
 ---
 
 ## 📊 Statistik GitHub
-![GitHub stats]([https://github-readme-stats.vercel.app/api?username=latifardiansyah&show_icons=true&theme=tokyonight](https://github-readme-stats.vercel.app/api?username=tippoart&show_icons=true&theme=tokyonight&count_private=true))  
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=tippoart&show_icons=true&theme=tokyonight&count_private=true)  
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tippoart&layout=compact&theme=tokyonight)
 
 ---
 
