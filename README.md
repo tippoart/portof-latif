@@ -56,7 +56,7 @@ Fokus saya adalah menciptakan sistem yang **user-friendly, efisien, dan up-to-da
 
 ### 3. GoedangKaos
 📖 Website UMKM percetakan di Ambon.  
-🔧 **Teknologi:** HTML, CSS, JavaScript, TailwindCSS  
+🔧 **Teknologi:** Laravel, Filament, MYSQL, JavaScript, TailwindCSS  
 
 ---
 
