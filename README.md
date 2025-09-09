@@ -19,6 +19,7 @@ Fokus saya adalah menciptakan sistem yang **user-friendly, efisien, dan up-to-da
 - CSS  
 - JavaScript  
 - PHP
+- Python
 
 **Framework & Library**
 - Laravel  
