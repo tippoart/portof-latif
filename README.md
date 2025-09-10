@@ -44,9 +44,10 @@ Fokus saya adalah menciptakan sistem yang **user-friendly, efisien, dan up-to-da
 
 ### 1. Prank Buster
 📖 Sistem pelaporan panggilan prank, pengaduan, dan informasi untuk kepolisian DIY.  
-🔧 **Teknologi:** JavaScript, Laravel, MySQL, TailwindCSS  
+🔧 **Teknologi:** JavaScript, Laravel, MySQL, TailwindCSS
 link repository https://github.com/tippoart/PrankBuster 
----
+ 
+--- 
 
 ### 2. Fixban
 📖 Website bengkel tambal ban online di area Jogja.  
