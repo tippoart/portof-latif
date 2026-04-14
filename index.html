@@ -12,9 +12,12 @@
       href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Rouge+Script&family=Tangerine:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+ 
   </head>
   <body>
-    <!-- Hero / About Me -->
     <section class="about">
       <div class="about-text"  >
         <h2>Hi Welcome to my portf!</h2>
@@ -27,7 +30,6 @@
           selalu mengikuti tren teknologi.
         </p>
 
-        <!-- Wrapper skills -->
         <div class="skills-wrapper">
           <div class="skills">
             <img src="icons/html1.png" alt="HTML" />
@@ -53,10 +55,8 @@
       </div>
 
       <div class="card-3d">
-        <!-- Foto Profil -->
         <img src="img/tipo.png" alt="Latif Ardiansyah" class="profile-photo" />
 
-        <!-- Teks kontak -->
         <div class="card-info">
           <div class="quote">
             HOPE TO WORK <span class="with-you">WITH YOU</span>
@@ -98,7 +98,6 @@
       </div>
     </section>
 
-    <!-- SVG Gelombang -->
     <div style="position: relative">
       <svg
         viewBox="0 0 1440 150"
@@ -125,6 +124,7 @@
         ></path>
       </svg>
     </div>
+    
     <div style="position: relative">
       <svg
         viewBox="0 0 1440 150"
@@ -152,9 +152,8 @@
       </svg>
     </div>
 
-    <!-- Projects -->
     <section class="projects">
-      <h2>My Projects</h2>
+      <h2>Proyek Saya</h2>
       <div class="project-grid">
         <div class="project-card">
           <img src="produk/prankbuster.png" alt="Prank Buster" />
@@ -208,29 +207,196 @@
       <a class="lihat-semua" href="">Lihat semua</a>
     </section>
 
-    <div style="position: relative">
-      <svg
-        viewBox="0 0 1440 100"
-        preserveAspectRatio="none"
-        style="
-          top: 0px;
-          rotate: 180deg;
-          position: absolute;
-          left: 0;
-          width: 100%;
-          height: 30px;
-        "
-      >
-        <path
-          fill="#111"
-          fill-opacity="1"
-          style="filter: drop-shadow(0 -4px 6px rgba(255, 255, 255, 0.1))"
-          d="M0,40 C360,100 1080,0 1440,60 L1440,100 L0,100 Z"
-        ></path>
-      </svg>
+ 
+
+
+<section class="certificates">
+  <h2>Sertifikat</h2>
+  <p class="section-subtitle">Pencapaian & Sertifikasi </p>
+  <div class="cert-grid">
+
+    <div class="cert-card">
+      <div class="cert-icon">
+        <img class="codepolitan" src="./img/codepolitan.png" alt="">
+      </div>
+      <h3>Belajar JavaScript Asynchronous</h3>
+      <p>CODEPOLITAN</p>
+      <span class="cert-year">2024</span>
+      <button onclick="openModal(this)" class="button-lihat-sertif"
+          data-img="./img/sertifikat/codepolitan/asyncronous JS Sertif_page-0001.jpg"
+        data-title="Belajar JavaScript Asynchronous"
+        data-desc="Sertifikat Belajar JavaScript Asynchronous dari Codepolitan tahun 2024.">
+        Lihat Sertifikat</button>
     </div>
 
-    <!-- Footer -->
+    <div class="cert-card">
+      <div class="cert-icon">
+        <img class="codepolitan" src="./img/codepolitan.png" alt="">
+      </div>
+      <h3>Belajar AJAX dan Web API</h3>
+      <p>CODEPOLITAN</p>
+      <span class="cert-year">2024</span>
+      <button onclick="openModal(this)" class="button-lihat-sertif"
+       data-img="./img/sertifikat/codepolitan/certificate API JS_page-0001.jpg"
+        data-title="Belajar AJAX dan Web API"
+        data-desc="Sertifikat Belajar AJAX dan Web API dari Codepolitan tahun 2024.">
+      Lihat Sertifikat</button>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon">
+        <img class="codepolitan" src="./img/codepolitan.png" alt="">
+      </div>
+      <h3>Belajar JavaScript</h3>
+      <p>CODEPOLITAN</p>
+      <span class="cert-year">2024</span>
+      <button onclick="openModal(this)" class="button-lihat-sertif"
+        data-img="./img/sertifikat/codepolitan/certificate js Dasar_page-0001.jpg"
+        data-title="Belajar JavaScript"
+        data-desc="Sertifikat Belajar JavaScript dari Codepolitan tahun 2024.">
+      Lihat Sertifikat</button>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon">
+        <img class="codepolitan" src="./img/codepolitan.png" alt="">
+      </div>
+      <h3>Belajar Konsep OOP di JavaScript</h3>
+      <p>CODEPOLITAN</p>
+      <span class="cert-year">2024</span>
+      <button onclick="openModal(this)" class="button-lihat-sertif"
+        data-img="./img/sertifikat/codepolitan/oop js_page-0001.jpg"
+        data-title="Belajar Konsep OOP di JavaScript"
+        data-desc="Sertifikat Belajar Konsep OOP di JavaScript dari Codepolitan tahun 2024.">
+      Lihat Sertifikat</button>
+    </div>
+
+    
+    <div class="cert-card">
+      <div class="cert-icon">
+        <img class="codepolitan" src="./img/codepolitan.png" alt="">
+      </div>
+      <h3>Belajar JavaScript DOM </h3>
+      <p>CODEPOLITAN</p>
+      <span class="cert-year">2024</span>
+      <button onclick="openModal(this)" class="button-lihat-sertif"
+        data-img="./img/sertifikat/codepolitan/DOM sertifikat_page-0001.jpg"
+        data-title="Belajar JavaScript DOM "
+        data-desc="Sertifikat Belajar JavaScript DOM  dari Codepolitan tahun 2024.">
+      Lihat Sertifikat</button>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon">
+        <img class="codepolitan" src="./img/FA.png" alt="">
+      </div>
+      <h3>ASISTEN PRAKTIKUM MATA KULIAH Pemrograman Web Lanjut
+        </h3>
+      <p>Universitas Amikom Yogyakarta</p>
+      <span class="cert-year">2026</span>
+      <button onclick="openModal(this)" class="button-lihat-sertif"
+        data-img="./img/sertifikat/amikom/PWL.jpg"
+        data-title="ASISTEN PRAKTIKUM MATA KULIAH Pemrograman Web Lanjut
+        "
+        data-desc="Sertifikat ASISTEN PRAKTIKUM MATA KULIAH Pemrograman Web Lanjut
+         dari Universitas Amikom Yogyakarta tahun 2026.">
+      Lihat Sertifikat</button>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon">
+        <img class="codepolitan" src="./img/FA.png" alt="">
+      </div>
+      <h3>ASISTEN PRAKTIKUM MATA KULIAH Sistem Manajemen Basis Data Lanjut
+        </h3>
+      <p>Universitas Amikom Yogyakarta</p>
+      <span class="cert-year">2026</span>
+      <button onclick="openModal(this)" class="button-lihat-sertif"
+        data-img="./img/sertifikat/amikom/SMBDL.jpg"
+        data-title="ASISTEN PRAKTIKUM MATA KULIAH Sistem Manajemen Basis Data Lanjut
+        "
+        data-desc="Sertifikat ASISTEN PRAKTIKUM MATA KULIAH Sistem Manajemen Basis Data Lanjut
+         dari Universitas Amikom Yogyakarta tahun 2026.">
+      Lihat Sertifikat</button>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon">
+        <img class="codepolitan" src="./img/FA.png" alt="">
+      </div>
+      <h3>ASISTEN PRAKTIKUM MATA KULIAH Pengantar Teknologi Informasi
+        </h3>
+      <p>Universitas Amikom Yogyakarta</p>
+      <span class="cert-year">2026</span>
+      <button onclick="openModal(this)" class="button-lihat-sertif"
+        data-img="./img/sertifikat/amikom/PTI.jpg"
+        data-title="ASISTEN PRAKTIKUM MATA KULIAH Pengantar Teknologi Informasi
+        "
+        data-desc="Sertifikat ASISTEN PRAKTIKUM MATA KULIAH Pengantar Teknologi Informasi
+         dari Universitas Amikom Yogyakarta tahun 2026.">
+      Lihat Sertifikat</button>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-icon">
+        <img id="BIDTIK" class="codepolitan" src="./img/BIDTIK.png" alt="">
+      </div>
+      <h3>Kerja Praktik Bidang Teknologi Informasi
+        </h3>
+      <p>POLDA DIY</p>
+      <span class="cert-year">2025</span>
+      <button onclick="openModal(this)" class="button-lihat-sertif"
+        data-img="./img/sertifikat/polda/POLDA-SERTIF.jpg"
+        data-title="Kerja Praktik Bidang Teknologi Informasi
+        "
+        data-desc="Sertifikat Kerja Praktik Bidang Teknologi Informasi
+         dari POLDA DIY tahun 2025.">
+      Lihat Sertifikat</button>
+    </div>
+
+
+  </div>
+</section>
+
+  <section class="experience">
+    <h2>Pengalaman</h2>
+    <p class="section-subtitle">Perjalanan Karir & Kontribusi</p>
+    <div class="timeline">
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <h3>Frontend Developer — Intern</h3>
+          <span class="tl-company">POLDA DIY Yogyakarta</span>
+          <span class="tl-date">11 april 2025 – 11 juli 2025 </span>
+          <p>Membangun fitur sistem pelaporan berbasis Laravel & MySQL. Berkontribusi pada pengembangan UI menggunakan Laravel 11 dan TailwindCSS.</p>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <h3>Freelance Web Developer</h3>
+          <span class="tl-company">Independen</span>
+          <span class="tl-date">Jul 2023 – Sekarang</span>
+          <p>Mengerjakan berbagai proyek UMKM dan startup: website company profile, e-commerce, dan sistem informasi berbasis web.</p>
+        </div>
+      </div>
+
+      <div class="tl-item tl-item--muted">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <h3>Mahasiswa Teknik Informatika</h3>
+          <span class="tl-company">Universitas XYZ</span>
+          <span class="tl-date">2021 – 2025</span>
+          <p>Fokus pada pengembangan perangkat lunak, basis data, dan rekayasa web. Aktif di komunitas coding kampus.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
     <footer>
       ©
       <script>
@@ -242,12 +408,37 @@
     <div>
       <a class="wa-me" href=" https://wa.me/6281243827522"
         ><img
-          style="width: 3rem; border-radius: 100%; object-fit: cover"
+          style="width: 2.5rem; border-radius: 100%; object-fit: cover"
           src="icons/wa.png"
           alt=""
       /></a>
     </div>
 
+
+
+    <!-- pop up -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+
+    <span class="close" onclick="closeModal()">&times;</span>
+
+    <h2 id="modal-title">Sertifikat</h2>
+
+    <img id="modal-img" src="" class="modal-img" alt="sertifikat">
+
+    <p id="modal-desc"></p>
+
+  </div>
+</div>
+
+
+
+
     <script src="app.js"></script>
+
+
+
+
+
   </body>
 </html>

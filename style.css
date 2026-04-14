@@ -1,4 +1,3 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +11,6 @@
   --card-bg: rgba(255, 255, 255, 0.85);
 }
 
-/* Base */
 body {
   font-family: "Poppins", Arial, sans-serif;
   background: var(--bg);
@@ -20,7 +18,6 @@ body {
   line-height: 1.6;
 }
 
-/* Layout */
 .about {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -31,10 +28,8 @@ body {
   align-items: center;
 }
 
-/* Left text */
-
-.about-text{
-    width: 80%;
+.about-text {
+  width: 80%;
 }
 .about-text h2 {
   font-size: 14px;
@@ -87,7 +82,9 @@ body {
 .skills img {
   width: 36px;
   object-fit: contain;
-  transition: transform 0.25s ease, filter 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    filter 0.25s ease;
   filter: grayscale(100%);
 }
 .skills img:hover {
@@ -100,19 +97,17 @@ body {
   gap: 12px;
   justify-content: center;
   align-items: center;
-
 }
 .tech .laravel-p {
-  width: 3.7rem;  
-  height: 3.7rem; 
-  object-fit: contain; 
+  width: 3.7rem;
+  height: 3.7rem;
+  object-fit: contain;
 }
 .tech img {
-  width: 2.3rem; 
-  height: 2.3rem; 
-  object-fit: contain; 
+  width: 2.3rem;
+  height: 2.3rem;
+  object-fit: contain;
 }
-
 
 .skills .gambar-icon {
   width: 60px;
@@ -162,7 +157,9 @@ body {
   overflow: hidden;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
   transform-style: preserve-3d;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 /* Foto */
@@ -235,8 +232,6 @@ body {
 
 /* Very small screens: stack card below image (no overlap) for readability */
 @media (max-width: 420px) {
-
- 
   .contact-card {
     position: static;
     transform: none;
@@ -247,20 +242,18 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-
-.about{
-  margin: 0;
-  padding: 1rem;
-  min-height: 100vh;
-}
+  .about {
+    margin: 0;
+    padding: 1rem;
+    min-height: 100vh;
+  }
   .card-3d {
-    min-height:20rem;
+    min-height: 20rem;
     right: 0;
     bottom: 1rem;
-
   }
 
-  .about-text{
+  .about-text {
     width: 100%;
     overflow: hidden;
   }
@@ -269,13 +262,13 @@ body {
     width: 100%;
   }
 
-  .unduh-vc{
+  .unduh-vc {
     bottom: 1rem;
     position: relative;
   }
 }
 
-.sos{
+.sos {
   width: 20px;
   object-fit: cover;
 }
@@ -292,14 +285,15 @@ body {
   color: #fff;
   text-align: center;
   padding: 60px 20px;
-  margin-top: 28px;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  
 }
 .projects h2 {
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 36px;
   letter-spacing: 2px;
-  text-transform: uppercase;
 }
 .project-grid {
   display: grid;
@@ -313,7 +307,9 @@ body {
   color: #000;
   border-radius: 12px;
   padding: 16px;
-  transition: transform 0.28s ease, box-shadow 0.28s ease;
+  transition:
+    transform 0.28s ease,
+    box-shadow 0.28s ease;
 }
 .project-card img {
   width: 60%;
@@ -339,7 +335,155 @@ body {
   background-color: #574fd6;
 }
 
-/* Footer */
+.section-subtitle {
+  text-align: center;
+  color: #888;
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+
+.certificates {
+  padding: 5rem 2rem;
+  background: #f8f9fa;
+  text-align: center;
+}
+.certificates h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
+  gap: 1.2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.cert-card {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-left: 4px solid #4f8ef7;
+  border-radius: 14px;
+  padding: 1.4rem 1.2rem;
+  text-align: left;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+.cert-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(79, 142, 247, 0.12);
+}
+.codepolitan {
+  width: 5rem;
+  object-fit: cover;
+}
+.cert-card h3 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 0.3rem;
+}
+.cert-card p {
+  font-size: 0.82rem;
+  color: #888;
+  margin-bottom: 0.6rem;
+}
+.cert-year {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  background: #eef3ff;
+  color: #4f8ef7;
+  padding: 2px 10px;
+  border-radius: 20px;
+}
+
+.button-lihat-sertif {
+ display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  background: var(--accent);
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+}
+
+.button-lihat-sertif:hover {
+  background-color: #574fd6;
+}
+
+.experience {
+  padding: 5rem 2rem;
+  text-align: center;
+}
+.experience h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+.timeline {
+  position: relative;
+  max-width: 680px;
+  margin: 0 auto;
+  padding-left: 1.8rem;
+  text-align: left;
+}
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 0.55rem;
+  top: 6px;
+  bottom: 6px;
+  width: 2px;
+  background: #e0e0e0;
+}
+.tl-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+.tl-dot {
+  position: absolute;
+  left: -1.6rem;
+  top: 4px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #4f8ef7;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 2px #4f8ef7;
+}
+.tl-item--muted .tl-dot {
+  background: #bbb;
+  box-shadow: 0 0 0 2px #bbb;
+}
+.tl-content h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 2px;
+}
+.tl-company {
+  font-size: 0.88rem;
+  color: #4f8ef7;
+  font-weight: 600;
+  display: block;
+}
+.tl-date {
+  font-size: 0.78rem;
+  color: #aaa;
+  display: block;
+  margin: 2px 0 6px;
+}
+.tl-content p {
+  font-size: 0.88rem;
+  color: #666;
+  line-height: 1.6;
+}
+
 footer {
   text-align: center;
   font-size: 14px;
@@ -347,4 +491,62 @@ footer {
   color: #666;
   margin-top: 38px;
   background: transparent;
+}
+
+
+/* pop up */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+   max-height: 200vh;    
+  overflow-y: auto; 
+
+
+}
+
+#BIDTIK {
+  width: 10%;
+}
+.modal-content {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+  animation: fadeIn 0.3s ease;
+}
+
+.modal-img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  margin: 1rem 0;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
