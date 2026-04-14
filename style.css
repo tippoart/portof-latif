@@ -3,6 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+.tech-stack {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .tech-tag {
+        font-size: 11.5px;
+        font-weight: 600;
+        color: var(--accent);
+        background: rgba(108, 99, 255, 0.1);
+        padding: 3px 10px;
+        border-radius: 100px;
+        letter-spacing: 0.1px;
+      }
 
 :root {
   --accent: #6c63ff;
@@ -97,16 +112,6 @@ body {
   gap: 12px;
   justify-content: center;
   align-items: center;
-}
-.tech .laravel-p {
-  width: 3.7rem;
-  height: 3.7rem;
-  object-fit: contain;
-}
-.tech img {
-  width: 2.3rem;
-  height: 2.3rem;
-  object-fit: contain;
 }
 
 .skills .gambar-icon {
