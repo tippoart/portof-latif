@@ -63,18 +63,11 @@ Website UMKM percetakan di Ambon.
 ---
 
 ## Pengalaman & Sertifikasi
-- **Magang di Polda DIY**: Mengembangkan sistem pelaporan online berbasis web.  
+- **Magang di Polda DIY**: Mengembangkan sistem pelaporan online berbasis web
+- **Asisten Dosen di Amikom Yogyakarta** : Memmbantu dosen matakuliah Pemograman web lanjut, manajemen basis data lanjut dan pengantar teknologi informasi di dalam kelas seperti menjelaskan materi ke mahasiswa dan membantu memberikan nilai mahasiswa.  
 - Sertifikasi:  
   - Codepolitan – Kode Bisat Laravel & Javascript Expert  
   - AMCC – Onlien & Offline Course : Web Programming 
-
----
-
-## 📊 Statistik GitHub
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=tippoart&show_icons=true&theme=tokyonight&count_private=true)  
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tippoart&layout=compact&theme=tokyonight)
 
 ---
 
@@ -91,7 +84,7 @@ Email: [latifardiansyah982@gmail.com](mailto:latifardiansyah982@gmail.com)
 ---
 
 ## Portof Web
-  link portof: https://portof-latif.vercel.app/  
+  link portof: https://portof-latif.vercel.app/ 
   
 ---
 
