@@ -17,38 +17,8 @@ body {
   overflow-x: hidden;
   position: relative;
 }
-body::before {
-  content: "";
-  position: fixed;
-  top: -120px;
-  right: -120px;
-  width: 480px;
-  height: 480px;
-  border-radius: 50%;
-  background: radial-gradient(
-    circle,
-    rgba(108, 99, 255, 0.12) 0%,
-    transparent 70%
-  );
-  pointer-events: none;
-  z-index: 0;
-}
-body::after {
-  content: "";
-  position: fixed;
-  bottom: -80px;
-  left: -80px;
-  width: 360px;
-  height: 360px;
-  border-radius: 50%;
-  background: radial-gradient(
-    circle,
-    rgba(108, 99, 255, 0.08) 0%,
-    transparent 70%
-  );
-  pointer-events: none;
-  z-index: 0;
-}
+
+
 
 header {
   position: sticky;
