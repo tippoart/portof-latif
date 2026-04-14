@@ -3,7 +3,7 @@ document.getElementById("downloadCV").addEventListener("click", function (e) {
   e.preventDefault();
 
   const link = document.createElement("a");
-  link.href = "cv/CV LATIF ARDIANSYAH.pdf"; 
+  link.href = "cv/CV LATIF ARDIANSYAH-v3.pdf"; 
   link.download = "CV-Latif-Ardiansyah.pdf"; 
   link.style.display = "none"; 
   document.body.appendChild(link);
