@@ -36,6 +36,7 @@ Fokus saya adalah menciptakan sistem yang **user-friendly, efisien, dan up-to-da
 - VS Code  
 - Postman  
 - Figma
+- Laragon
 - XAMPP
 
 ---
@@ -64,7 +65,7 @@ Website UMKM percetakan di Ambon.
 
 ## Pengalaman & Sertifikasi
 - **Magang di Polda DIY**: Mengembangkan sistem pelaporan online berbasis web
-- **Asisten Dosen di Amikom Yogyakarta** : Memmbantu dosen matakuliah Pemograman web lanjut, manajemen basis data lanjut dan pengantar teknologi informasi di dalam kelas seperti menjelaskan materi ke mahasiswa dan membantu memberikan nilai mahasiswa.  
+- **Asisten Dosen di Amikom Yogyakarta** : Membantu dosen matakuliah Pemograman web lanjut, manajemen basis data lanjut dan pengantar teknologi informasi di dalam kelas seperti menjelaskan materi ke mahasiswa dan membantu memberikan nilai mahasiswa.  
 - Sertifikasi:  
   - Codepolitan – Kode Bisat Laravel & Javascript Expert  
   - AMCC – Onlien & Offline Course : Web Programming 
