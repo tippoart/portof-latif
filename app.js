@@ -3,8 +3,8 @@ document.getElementById("downloadCV").addEventListener("click", function (e) {
   e.preventDefault();
 
   const link = document.createElement("a");
-  link.href = "cv/CV Update_Latif Ardiansyah_IT Software Developer.pdf";
-  link.download = "CV Update_Latif Ardiansyah_IT Software Developer.pdf";
+  link.href = "cv/CV LATIF ARDIANSYAH-terbaru2.pdf";
+  link.download = "CV LATIF ARDIANSYAH-terbaru2.pdf";
   link.style.display = "none";
   document.body.appendChild(link);
   link.click();
